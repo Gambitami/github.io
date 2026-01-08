@@ -5,44 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gambitami | Portafolio de Datos</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="bg-gray-900 text-white font-sans">
 
     <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
-        <h1 class="text-2xl font-bold text-blue-400">Gambitami</h1>
+        <h1 class="text-2xl font-bold text-blue-400 tracking-wider">GAMBITAMI</h1>
         <div class="space-x-4">
-            <a href="https://github.com/Gambitami" target="_blank" class="hover:text-blue-400 font-medium">GitHub</a>
+            <a href="https://github.com/Gambitami" target="_blank" class="hover:text-blue-400 font-medium transition">GitHub</a>
         </div>
     </nav>
 
-    <header class="py-20 text-center">
-        <h2 class="text-5xl font-extrabold mb-4 tracking-tight">Portafolio de <span class="text-blue-500">Análisis de Datos</span></h2>
-        <p class="text-gray-400 text-xl max-w-2xl mx-auto">
-            Proyectos de Python, SQL y visualización. Enfocado en transformar datos en insights accionables.
+    <header class="py-16 text-center border-b border-gray-800">
+        <h2 class="text-5xl font-extrabold mb-4 tracking-tight">Analista de <span class="text-blue-500">Datos</span></h2>
+        <p class="text-gray-400 text-xl max-w-2xl mx-auto px-4">
+            Transformando datos brutos en decisiones estratégicas. Especialista en Python, SQL y visualización.
         </p>
     </header>
 
+    <section class="max-w-6xl mx-auto px-6 py-12">
+        <h3 class="text-2xl font-semibold mb-6 text-gray-300">Habilidades Técnicas</h3>
+        <div class="flex flex-wrap gap-4">
+            <div class="flex items-center bg-gray-800 border border-gray-700 px-4 py-2 rounded-lg">
+                <i class="fab fa-python text-yellow-400 mr-2"></i>
+                <span>Python (Pandas, Numpy)</span>
+            </div>
+            <div class="flex items-center bg-gray-800 border border-gray-700 px-4 py-2 rounded-lg">
+                <i class="fas fa-database text-blue-400 mr-2"></i>
+                <span>SQL (PostgreSQL, MySQL)</span>
+            </div>
+            <div class="flex items-center bg-gray-800 border border-gray-700 px-4 py-2 rounded-lg">
+                <i class="fas fa-chart-bar text-green-400 mr-2"></i>
+                <span>Visualización (Matplotlib, Seaborn)</span>
+            </div>
+            <div class="flex items-center bg-gray-800 border border-gray-700 px-4 py-2 rounded-lg">
+                <i class="fas fa-terminal text-purple-400 mr-2"></i>
+                <span>Git & GitHub</span>
+            </div>
+            <div class="flex items-center bg-gray-800 border border-gray-700 px-4 py-2 rounded-lg">
+                <i class="fas fa-file-excel text-green-600 mr-2"></i>
+                <span>Excel Avanzado</span>
+            </div>
+        </div>
+    </section>
+
     <main class="max-w-6xl mx-auto px-6 pb-20">
-        <h3 class="text-3xl font-semibold mb-8 border-b-2 border-blue-500 inline-block">Proyectos Seleccionados</h3>
+        <h3 class="text-2xl font-semibold mb-8 text-gray-300">Proyectos Seleccionados</h3>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             
-            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-blue-500 transition-all duration-300 shadow-lg">
-                <h4 class="text-2xl font-bold mb-2 text-blue-300">Proyecto: TT</h4>
-                <p class="text-gray-400 mb-6">
-                    Selección de proyectos de Análisis de Datos utilizando <strong>Python y SQL</strong> para la extracción y limpieza de información.
+            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-blue-500 transition-all duration-300 shadow-xl group">
+                <h4 class="text-2xl font-bold mb-2 text-blue-300 group-hover:text-blue-400">Proyecto: TT</h4>
+                <p class="text-gray-400 mb-6 leading-relaxed">
+                    Portafolio especializado en análisis de datos. Incluye implementaciones técnicas con <strong>Python y SQL</strong>, enfocadas en la limpieza y estructuración de datasets complejos.
                 </p>
-                <div class="flex flex-wrap gap-4">
-                    <a href="https://github.com/Gambitami/TT" target="_blank" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-sm font-bold transition">Ver Código</a>
-                    <a href="https://gambitami.github.io/TT/" target="_blank" class="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded text-sm font-bold transition">Ver Proyecto en Vivo</a>
+                <div class="flex flex-wrap gap-4 mt-auto">
+                    <a href="https://github.com/Gambitami/TT" target="_blank" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-sm font-bold transition flex items-center">
+                        <i class="fab fa-github mr-2"></i> Código
+                    </a>
+                    <a href="https://gambitami.github.io/TT/" target="_blank" class="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded text-sm font-bold transition flex items-center">
+                        <i class="fas fa-external-link-alt mr-2"></i> Demo en Vivo
+                    </a>
                 </div>
             </div>
 
+            <div class="bg-gray-900 p-6 rounded-xl border border-dashed border-gray-700 flex flex-col justify-center items-center text-center">
+                <p class="text-gray-600 font-medium">Próximo proyecto en desarrollo...</p>
+                <i class="fas fa-plus-circle text-gray-800 text-3xl mt-2"></i>
             </div>
+
+        </div>
     </main>
 
-    <footer class="text-center py-10 border-t border-gray-800">
-        <p class="text-gray-500 text-sm">© 2024 Gambitami - Construido con GitHub Pages</p>
+    <footer class="text-center py-10 border-t border-gray-800 bg-gray-900">
+        <p class="text-gray-500 text-sm">© 2026 Gambitami - Analista de Datos</p>
     </footer>
 
 </body>
